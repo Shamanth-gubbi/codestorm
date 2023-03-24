@@ -1,0 +1,19 @@
+2. The government is conducting a plantation Camp to increase the growth of trees. To make this
+camp successfull, the government is calling volunteers to come up with a number of trees that
+must be planted. Since the government has a limited amount of budget, they will select
+people who have given a good number of trees only. The number is said to be good if the
+ following operation is performed repeatedly until the number is 1.
+
+Eg: 13
+1² + 3² = 10
+1² + 0² = 1
+If it never reaches 1 then it is not a good number.
+Print the indexes which are having a good number of trees.
+
+Input format
+N
+Next n lines contain the value of the number of trees given by N persons.
+
+Output format
+First line contains m the number of persons selected
+Next line contains M spaced integers representing the indexes of the persons qualified.
