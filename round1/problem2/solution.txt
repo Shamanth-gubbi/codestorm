@@ -1,0 +1,37 @@
+
+bool isGoodNumber(int num) {
+    while (num != 1 && num != 4) {
+        int sum = 0;
+        while (num > 0) {
+            int digit = num % 10;
+            sum += digit * digit;
+            num /= 10;
+        }
+        num = sum;
+    }
+    return num == 1;
+}
+
+int main() {
+    int n;
+    cin >> n;
+    vector<int> trees(n);
+    for (int i = 0; i < n; i++) {
+        cin >> trees[i];
+    }
+
+    vector<int> goodNumbers;
+    for (int i = 0; i < n; i++) {
+        if (isGoodNumber(trees[i])) {
+            goodNumbers.push_back(i+1);
+        }
+    }
+
+    cout << goodNumbers.size() << endl;
+    for (int i = 0; i < goodNumbers.size(); i++) {
+        cout << goodNumbers[i] << " ";
+    }
+    cout << endl;
+
+    return 0;
+}
