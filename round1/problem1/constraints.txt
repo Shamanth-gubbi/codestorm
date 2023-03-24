@@ -1,0 +1,1 @@
+1 <= first.length, second.length <= 5 * 104

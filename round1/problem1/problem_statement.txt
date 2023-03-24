@@ -1,0 +1,4 @@
+Jumble Wumble
+1. A nature activist has finished a book, 
+some words next to each other, don't seem the way they are supposed to. 
+Given two words return true if the second word can be rearranged to form the first word else return false.
