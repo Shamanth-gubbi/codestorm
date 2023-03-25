@@ -1,0 +1,12 @@
+Given an eco-friendly landscape of vegetation including flower  and trees, 
+determine if a firefly can jump from one stalk to another.The stalks are represented as an array,
+with the corresponding index representing the position of the stalk. 
+Each element in the array represents the maximum jump distance from the current position.
+
+input 
+t(no of test cases)
+a(array)
+
+output
+bool
+true/false depending on whether the firefly ca reach the end of the row of stalks.
