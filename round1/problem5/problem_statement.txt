@@ -1,0 +1,12 @@
+A jungle named Okai has lost a king. It's time find a person who can be crowned as the king. To find the new person,
+the minister has declared a competition in which N persons will be made to stand adjacent to each other. 
+Two adjacent people have power l and m respectively. 
+Adjacent people will fight where one or both of them will be eliminated and the person who stays 
+will again fight with the next adjacent person. 
+The criteria for elimination is:
+if l>=m then
+if l==m, both will be eliminated,
+if l>m, m will be eliminated and the power of new person will become l-m.
+At the end of the game there will be atmost one person left and he will be crowned the king. 
+
+Your task is to return the smallest possible power of the left person. If there are no persons left then return 0.
