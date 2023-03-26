@@ -14,7 +14,7 @@ def print_matrix1(m):
             print((m[i][j]),end='')
             #print(' ')
             # if(j==len(m)-1):
-        print('\n')
+        #print('\n')
 
 def print_matrix(m):
     print('[',end='')

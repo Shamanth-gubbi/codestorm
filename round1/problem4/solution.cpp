@@ -22,7 +22,7 @@ cin>>n;
 //int m[n][n];
 vector<vector<int>> m(n,vector<int>(n));
 for(int i=0;i<n;i++){
-    for(int j=0;i<n;j++){
+    for(int j=0;j<n;j++){
         cin>>m[i][j];
     }
 }
@@ -47,7 +47,7 @@ for (int tc = 1; tc <=testcase; tc++)
 {
 test(tc);
 }
-cout<<flush;
+//cout<<flush;
 return 0;
 }
 
